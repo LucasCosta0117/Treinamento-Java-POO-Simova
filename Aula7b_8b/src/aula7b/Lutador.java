@@ -11,12 +11,12 @@ public class Lutador {
 
     //Métodos personalizados
     public void apresentar() {
-        System.out.println("CHEGOU A HORA! Apresentamos o lutador"+ this.getNome() + "\n"
-                + "Diretamente de " + this.getNacionalidade() + "\n"
-                + "com "+ this.getIdade() + " anos e " + this.getAltura() + "m de altura!" + "\n"
-                + "pesando "+ this.getPeso() + "Kg"
-                + this.getVitorias() + "vitórias,"
-                + this.getDerrotas() + "derrotas e "
+        System.out.println("CHEGOU A HORA! Apresentamos o lutador "+ this.getNome() + ",\n"
+                + "Diretamente do(a) " + this.getNacionalidade() + "!\n"
+                + "Com "+ this.getIdade() + " anos e " + this.getAltura() + "m de altura!" + "\n"
+                + "Pesando "+ this.getPeso() + "Kg," + "\n"
+                + this.getVitorias() + " vitórias," + "\n"
+                + this.getDerrotas() + " derrotas, e " + "\n"
                 + this.getEmpates() + " empates!" + "\n");
     }
 
